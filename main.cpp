@@ -204,7 +204,8 @@ double output(int a, int b)
 
 int main()
 {
-    cout << "Demonstration of simple addition neural netowrk!" << endl;
+    cout << "Demonstration of simple neural netowrk!" << endl;
+	cout << "Code guidline: you can change the output to a xor b or anything you want with a and b." << endl;
 
 	srand(time(NULL));
 	Net my_Net({ 2, 1, 1 });
